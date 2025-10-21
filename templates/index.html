@@ -1,18 +1,95 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
-    <title>讀書計畫</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>讀書計畫｜蔡佳佑</title>
+  <style>
+    /* 全局 */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Noto Serif TC", "Times New Roman", serif;
+      background: #f5f0e1; /* 書卷紙色 */
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* 主容器 */
+    .container {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 2.5rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+      max-width: 420px;
+      width: 90%;
+      border: 1px solid #ddd;
+    }
+
+    /* 標題 */
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #2c3e50;
+      border-bottom: 2px solid #b5886a;
+      display: inline-block;
+      padding-bottom: 0.5rem;
+    }
+
+    /* 導航列表 */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 0.9rem 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #4a4a4a;
+      font-size: 1.15rem;
+      padding: 0.3rem 0.6rem;
+      transition: all 0.3s ease;
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    a:hover {
+      background-color: #b5886a; /* 書卷咖色 hover */
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    }
+
+    /* 響應式 */
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+      a {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>文化資管王福星的讀書計畫</h1>
+  <div class="container">
+    <h1>備審 新北高中30110蔡佳佑</h1>
     <ul>
-        <li><a href="/competition">競賽經驗</a></li>
-        <li><a href="/activities">課外活動</a></li>
-        <li><a href="/leadership">幹部經驗</a></li>
-        <li><a href="/club">社團經驗</a></li>
-        <li><a href="/electives">多元選修課程</a></li>
-        <li><a href="/ai">AI應用</a></li>
+      <li><a href="/competition">🎊🏆競賽經驗</a></li>
+      <li><a href="/activities">🧳課外活動</a></li>
+      <li><a href="/leadership">🧑‍⚕️幹部經驗</a></li>
+      <li><a href="/club">⛹️社團經驗</a></li>
+      <li><a href="/electives">🔥多元選修課程</a></li>
+      <li><a href="/ai">👾AI 應用</a></li>
     </ul>
+  </div>
 </body>
 </html>
